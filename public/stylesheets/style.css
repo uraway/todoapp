@@ -1,8 +1,63 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+    padding-top: 15px;
+    background-color: #fcfcfc;
+  }
+
 
 a {
   color: #00B7FF;
+}
+
+h1 {
+  font-family: Impact,Charcoal;
+}
+table {
+  table-layout:auto;
+}
+table.fixed {
+  table-layout: auto;
+}
+table th,
+table td {
+  height: 40px;
+  padding:5px;
+}
+
+table.item {
+  width: 200px;
+}
+
+tr.done {
+  background-color: Honeydew;
+}
+tr.undone {
+  background-color: Azure;
+}
+span.done {
+  color: red;
+  text-decoration: line-through;
+  font-family: Impact,Charcoal;
+}
+span.undone {
+  color: #61DAFB;
+  font-family: Impact,Charcoal;
+}
+.mark-done {
+  margin-right: 30px;
+}
+.mark-done:hover {
+  color: #DD0000;
+}
+.close {
+  margin-left: 15px;
+  float: right;
+}
+.close:hover {
+  color: #DD0000;
+}
+
+form {
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-bottom: 30px;
 }
